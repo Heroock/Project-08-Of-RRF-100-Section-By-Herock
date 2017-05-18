@@ -1,0 +1,133 @@
+/* =============================================================================
+ * Name: CSS Style V3.0 || 2017 !!!
+ * Company: Banglasoft@Corporation™ !!!
+ * Founder: Engr. Md Mahadi Hassan Herock !!!
+ * Website URL: http://www.bangla-soft.com !!!
+ * Description: Try To Do Something Better Than Other !!!
+ ============================================================================ */
+
+/* ====================== CSS Styling Start From Here ======================= */
+
+/* ========================= General CSS For All ============================ */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* ============================ CSS For Fonts =============================== */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700');
+
+/* ========================= Fonts CSS End Here ============================= */
+
+/* ==================== General CSS For All End Here ======================== */
+
+/* ===================== CSS For Get Insurance Area ========================= */
+
+.get-insurance {
+	background: #F2F2F2;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 25px 0px;
+	text-align: center;
+}
+
+.insurance-heading h3 {
+	color: #2D2D2D;
+	font-weight: 700;
+	margin: 0px;
+	padding-bottom: 50px;
+}
+
+.single-insurance {
+	background: white;
+	margin-bottom: 30px;
+	text-align: justify;
+	transition: 1s;
+}
+
+.single-insurance:hover {
+	box-shadow: 0px 0px 20px #AFECD4;
+}
+
+.single-insurance .insurance-img {
+	height: 200px;
+}
+
+.single-insurance .business-bg {
+	background: url(images/dhaka.png);
+	background-color: #dddddd;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.single-insurance .boat-bg {
+	background: url(images/boston.png);
+	background-color: #dddddd;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.single-insurance .life-bg {
+	background: url(images/calofornia.png);
+	background-color: #dddddd;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.single-insurance .house-bg {
+	background: url(images/chicago.png);
+	background-color: #dddddd;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.insurance-text {
+	padding: 15px 15px 30px 15px;
+}
+
+.insurance-text h4 {
+	color: #2D2D2D;
+	font-weight: 600;
+	margin: 0px;
+	padding: 10px 0px 15px 0px;
+}
+
+.insurance-text p {
+	color: #A9A9A9;	
+	font-weight: 300;
+	line-height: 25px;
+	margin-bottom: 25px;
+	padding: 0px;
+}
+
+a.insurance-btn {
+	color: #00CB7C;
+	font-size: 12px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.insurance-text .insurance-btn {
+	transition: 2s;
+}
+
+.insurance-text .insurance-btn:hover {
+	background: #A2EACE;
+	border-radius: 50px;
+	color: white;
+	font-weight: 600;
+	padding: 12px 25px;
+}
+
+.insurance-text .insurance-btn .fa {
+	padding-left: 5px;
+}
+
+/* ================== Get Insurance Area CSS End Here ======================= */
+
+/* ======================= CSS Styling End Here ============================= */
